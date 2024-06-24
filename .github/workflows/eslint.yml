@@ -9,4 +9,4 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Run ESLint
-        run: npm run eslint:github-action
+        run: npm run eslint
