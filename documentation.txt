@@ -6,3 +6,14 @@ You can also run this command directly using 'npm init @eslint/config@latest'.
 3-select options that met your project.
 
 4-eslint.config.mjs are generated automatically.
+
+5-add prettier eslint extension
+
+6-  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint"
+  },
+
+  add "eslint" to scripts in package.json
+
+7-in command line enter ( npm run eslint );
