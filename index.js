@@ -13,6 +13,9 @@ let object = null;
 
 function testObject() {
     let name = object.name;
+    console.log(name);
+    console.log(object.name);
+    let ii = "";
 }
 
 testObject();
