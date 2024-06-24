@@ -6,7 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - uses: actions/npm@v3
+        with:
+          cmd: npm install -g eslint 
       - name: Install Dependencies
         run: npm install
       - name: Run ESLint
-        run: npm run eslint
+        run: eslint ./
