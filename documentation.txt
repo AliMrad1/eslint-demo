@@ -1,0 +1,8 @@
+1- PS C:\projects\weave-wider\es-lint-demo> npm install --save-dev eslint
+
+2-PS C:\projects\weave-wider\es-lint-demo> .\node_modules\.bin\eslint --init
+You can also run this command directly using 'npm init @eslint/config@latest'.
+
+3-select options that met your project.
+
+4-eslint.config.mjs are generated automatically.
