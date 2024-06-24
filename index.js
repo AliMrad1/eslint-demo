@@ -9,4 +9,11 @@ function loop() {
     }
 }
 
+let object = null;
+
+function testObject() {
+    let name = object.name;
+}
+
+testObject();
 loop();
