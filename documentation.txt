@@ -1,12 +1,4 @@
-note: TSLint has been the recommended linter in the past,
- but now TSLint is deprecated and ESLint is taking over its duties.
-
-Migration to ESLint: The TypeScript team officially recommends migrating from TSLint to ESLint for TypeScript projects.
-
-use Stylelint + Prettier (Stylelint or Sass Lint)
-
 1- PS C:\projects\weave-wider\es-lint-demo> npm install --save-dev eslint
-(It’s important to include the --save-dev flag because this saves the package as a dependency for development usage only.)
 
 2-PS C:\projects\weave-wider\es-lint-demo> .\node_modules\.bin\eslint --init
 You can also run this command directly using 'npm init @eslint/config@latest'.
@@ -15,7 +7,7 @@ You can also run this command directly using 'npm init @eslint/config@latest'.
 
 4-eslint.config.mjs are generated automatically.
 
-5-add prettier and eslint extension
+5-add prettier eslint extension
 
 6-  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,14 +17,3 @@ You can also run this command directly using 'npm init @eslint/config@latest'.
   add "eslint" to scripts in package.json
 
 7-in command line enter ( npm run eslint );
-
-in vscode ==> open settings.json add this code ==>
-{
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "eslint.validate": ["javascript"]
-}
-With this code in your settings.json file, ESLint will now automatically correct errors and validate JavaScript on save.
-
-8-can include eslint wokflow in case to ensure the bugy code not merged to main branch.
