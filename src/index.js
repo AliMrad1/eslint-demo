@@ -1,7 +1,7 @@
-let isDone = false;
+// let isDone = false;
 
-function test() {
-}  
+// function test() {
+// }  
 
 function loop() {
     
@@ -10,13 +10,13 @@ function loop() {
     }
 }
 
-let object = null; 
+// let object = null; 
 
 function testObject() {
     // let name = object.name;
     // console.log(name);
     // console.log(object.name);
-    let ii = "";
+    // let ii = "";
 }
 
 testObject();
